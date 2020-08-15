@@ -23,6 +23,11 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/styles"
+              ]
+            },
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -46,6 +51,11 @@
               "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "src/styles"
+                ]
+              },
               "vendorChunk": false,
               "buildOptimizer": true,
               "budgets": [
