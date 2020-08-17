@@ -1,4 +1,11 @@
 .pwa-dark-theme {
-  --text-color:         var(--pwa-light);
-  --bg-color:           var(--pwa-black);
+  --body-bg-color:                            var(--pwa-black1);
+  --header-text-color:                        var(--pwa-light);
+  --header-bg-color:                          var(--pwa-black2);
+  --task-panels-bg:                           var(--pwa-black1);
+  --task-panels-color:                        var(--pwa-light);
+  --task-panels-border-color:                 var(--pwa-black3);
+  --task-panels-header-bg-color:              var(--pwa-black2);
+  --task-item-bg-color:                       var(--pwa-black2);
+  --task-item-border-color:                   var(--pwa-black2);
 }

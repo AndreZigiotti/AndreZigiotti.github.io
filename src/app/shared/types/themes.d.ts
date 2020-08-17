@@ -1,0 +1,1 @@
+export type ThemeName = 'pwa-light-theme' | 'pwa-dark-theme';

@@ -1,4 +1,12 @@
 .pwa-light-theme {
-  --text-color:         var(--pwa-black);
-  --bg-color:           var(--pwa-light);
+  --body-bg-color:                            var(--pwa-light);
+  --header-text-color:                        var(--pwa-light);
+  --header-bg-color:                          var(--pwa-blue);
+  --task-panels-bg:                           var(--pwa-light);
+  --task-panels-color:                        var(--pwa-light);
+  --task-panels-border-color:                 var(--pwa-gray1);
+  --task-panels-header-bg-color:              var(--pwa-blue);
+  --task-item-color:                          var(--pwa-black1);
+  --task-item-bg-color:                       var(--pwa-light);
+  --task-item-border-color:                   var(--pwa-gray1);
 }

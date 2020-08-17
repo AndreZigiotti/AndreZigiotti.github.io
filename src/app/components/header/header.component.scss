@@ -1,6 +1,6 @@
 header {
-  color: var(--pwa-light);
-  background-color: var(--pwa-blue);
+  color: var(--header-text-color);
+  background-color: var(--header-bg-color);
 
   .top {
     display: flex;
@@ -18,6 +18,9 @@ header {
   }
 
   .bottom {
+    display: flex;
     padding: 5px 15px;
+    justify-content: flex-end;
+    align-items: center;
   }
 }
