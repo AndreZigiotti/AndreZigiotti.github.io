@@ -1,1 +1,24 @@
 <app-header></app-header>
+
+<div class="container">
+  <div class="row" cdkDropListGroup>
+    <div class="col">
+      <div class="panel panel-todo">
+        <h2>To do</h2>
+  
+        <div class="task-list" cdkDropList [cdkDropListData]="todo" (cdkDropListDropped)="drop($event)">
+          <div class="task-item" *ngFor="let item of todo" cdkDrag>{{item}}</div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="panel panel-done">
+        <h2>Done</h2>
+  
+        <div class="task-list" cdkDropList [cdkDropListData]="done" (cdkDropListDropped)="drop($event)">
+          <div class="task-item" *ngFor="let item of done" cdkDrag>{{item}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
