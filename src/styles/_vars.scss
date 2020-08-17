@@ -1,28 +1,7 @@
-// Colors
-$colors: (
-  primary: (
-    colorHex:             #3f51b5,
-    variations: (
-      100:                #26316e
-    )
-  ),
-  light: (
-    colorHex:             #FFFFFF,
-  ),
-  dark: (
-    colorHex:             #000000,
-  )
-);
-
-// Contexts
 :root {
-  @each $color, $data in $colors {
-    --#{$color}: #{map-get($map: $data, $key: "colorHex")};
-    
-    @if map-get($map: $data, $key: "variations") != null {
-      @each $variationName, $variationColor in map-get($map: $data, $key: "variations") {
-        --#{$color}-#{$variationName}: #{$variationColor};
-      }
-    }
-  }
+  
+  // Colors
+  --pwa-blue:               #3F51B5;
+  --pwa-light:              #FFFFFF;
+  --pwa-black:              #000000;
 }
