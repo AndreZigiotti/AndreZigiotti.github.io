@@ -4,7 +4,7 @@
   <div class="row" cdkDropListGroup>
     <div class="col">
       <div class="panel panel-todo">
-        <h2>To do</h2>
+        <h2>To do <button (click)="createTask()">+</button></h2>
   
         <div class="task-list" cdkDropList [cdkDropListData]="todo" (cdkDropListDropped)="drop($event)">
           <div class="task-item" *ngFor="let item of todo" cdkDrag>{{item}}</div>

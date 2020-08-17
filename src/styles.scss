@@ -3,3 +3,11 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.task-item {
+  padding: 10px 10px;
+  color: var(--task-item-color);
+  background-color: var(--task-item-bg-color);
+  border-bottom: 1px solid var(--task-item-border-color);
+}

@@ -26,15 +26,26 @@
     padding: 0 10px;
     border-bottom: 1px solid var(--task-panels-border-color);
     background-color: var(--task-panels-header-bg-color);
+
+    button {
+      position: relative;
+      float: right;
+      top: 7px;
+      font-weight: bold;
+      font-size: 14px;
+      appearance: none;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      color: var(--task-panels-color);
+    }
   }
 
   .task-list {
     min-height: 41px;
-
-    .task-item {
-      padding: 10px 10px;
-      color: var(--task-item-color);
-      border-bottom: 1px solid var(--task-item-border-color);
-    }
   }
+
+  // .cdk-drag-dragging {
+
+  // }
 }
